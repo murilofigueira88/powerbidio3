@@ -30,7 +30,8 @@ Diretrizes para transformação dos dados
 11.	Realize a junção dos colaboradores e respectivos nomes dos gerente . Isso pode ser feito com consulta SQL ou pela mescla de tabelas com Power BI. Caso utilize SQL, especifique no README a query utilizada no processo.
 12.	Mescle as colunas de Nome e Sobrenome para ter apenas uma coluna definindo os nomes dos colaboradores
 13.	Mescle os nomes de departamentos e localização. Isso fará que cada combinação departamento-local seja único. Isso irá auxiliar na criação do modelo estrela em um módulo futuro.
-14.	Explique por que, neste caso supracitado, podemos apenas utilizar o mesclar e não o atribuir.
+14.	Explique por que, neste caso supracitado, podemos apenas utilizar o mesclar e não o atribuir.  R - ✅ Mesclar: Relacionamento entre tabelas (adiciona colunas com base em chave)
+✅ Atribuir: Empilhar dados similares (adiciona linhas)
 15.	Agrupe os dados a fim de saber quantos colaboradores existem por gerente
 16.	Elimine as colunas desnecessárias, que não serão usadas no relatório, de cada tabela
 
